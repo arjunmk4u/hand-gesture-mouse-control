@@ -39,14 +39,8 @@ while True:
             hand_x, hand_y = index_finger.x, index_finger.y
             screen_x, screen_y = map_coordinates(hand_x, hand_y)
             pag.moveTo(screen_x, screen_y)
-        
 
-        
-
-      
-
-
-
+            
     #video displaying
     cv2.imshow("image",img)
     cv2.setWindowProperty("image", cv2.WND_PROP_TOPMOST, 1)
